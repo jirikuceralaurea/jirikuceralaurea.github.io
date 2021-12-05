@@ -1,9 +1,107 @@
-<html>
-    <head>
-        <title>Welcome to my website!</title>
-    </head>
-    <body>
-        <h1>Hello World</h1>
-    <p>This is my first page created for the Web Development course at Laurea</p>
-    </body>
+<!doctype html>
+<html lang="zxx">
+  <head>
+    <title>Public transport around the world</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS v5.0.2 -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"  integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">Public transport around the world</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <div class="navbar-nav">
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                <a class="nav-link" href="prague.html">Prague</a>
+                <a class="nav-link" href="bratislava.html">Bratislava</a>
+              </div>
+            </div>
+          </div>
+    </nav>
+    <h1>Welcome to my page!</h1>
+    <div class="row ms-3 me-3 align-items-center">
+        <div class="col-12 col-lg-6">
+            Public transportation is one of the things that is quite tricky to get a grasp of when visiting a new city or relocating. Therefore, on this page I would like to start a collection of the most important information about public transportation in different cities, to give you a hint of how the public transportation works wherever you are planning to visit. <br><br> The cities currently available on this website are Prague and Bratislava, central European capitals with fairly large networks of public transportation to offer to their citizens. <br><br> You will be able to see which methods of transport these cities include - this also hints at how advanced the public transport network in a given city is and how fast it allows the citizens of the given city to move. 
+        </div>
+        <div class="col-12 col-lg-6">
+          <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="img/tram1.jpg" class="d-block w-100" alt="A yellow tram">
+              </div>
+              <div class="carousel-item">
+                <img src="img/londonmetro.jpg" class="d-block w-100" alt="London Tube train">
+              </div>
+              <div class="carousel-item">
+                <img src="img/russiatrolleybus.jpg" class="d-block w-100" alt="Trolleybus in Russia">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+    </div>
+    <div class="row ms-3 me-3 mt-3 mb-3">
+        <div class="col-12 col-sm-4">
+            <div class="card">
+                <img src="img/prague.jpg" class="card-img-top" alt="Prague">
+                <div class="card-body">
+                  <h5 class="card-title">Prague</h5>
+                  <p class="card-text">Prague is the capital city of the Czech Republic - its very affordable network of public transport is lead by the city's metro lines and supplemented by one of the highest density tram networks in Europe.</p>
+                  <a href="prague.html" class="btn btn-primary">See more</a>
+                </div>
+              </div>
+        </div>
+        <div class="col-12 col-sm-4">
+            <div class="card">
+                <img src="img/bratislava.jpg" class="card-img-top" alt="Bratislava">
+                <div class="card-body">
+                  <h5 class="card-title">Bratislava</h5>
+                  <p class="card-text">Bratislava is the capital city of Slovakia - its network does not contain metro, but for a city its size, the ever improving tram network supplemented by trolleybuses does the job.</p>
+                  <a href="bratislava.html" class="btn btn-primary">See more</a>
+                </div>
+              </div>
+        </div>
+        <div class="col-12 col-sm-4">
+            <div class="card">
+                <img src="img/berlin.jpg" class="card-img-top" alt="Berlin">
+                <div class="card-body">
+                  <h5 class="card-title">Berlin</h5>
+                  <p class="card-text">The German capital contains a dense network of a subway, commuter trains and trams. Its efficient system reaches all around the cities and has quite a few interesting pecularities.</p>
+                  <a href="#" class="btn btn-primary">Coming soon</a>
+                </div>
+              </div>
+        </div>
+    </div>
+    <div class="row ms-3 me-3 mt-3 mb-3">
+        <div class="card">
+            <div class="card-body center">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-fill" viewBox="0 0 16 16">
+                    <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
+                  </svg>
+                <h2 class="card-title">
+                    About me
+                </h2>
+              My name is Jiri and I'm 20 years old. I know how tricky it may be to find out the right information about transportation in a place that you are planning to visit, and since this is a topic that is quite interesting to me, I decided to create this website in order to 
+            </div>
+          </div>
+    </div>
+    <!-- Bootstrap JavaScript Libraries -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+  </body>
 </html>
